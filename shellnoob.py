@@ -78,7 +78,7 @@ def print_usage():
     print('%s -i [--to-asm | --to-opcode ] (for interactive mode)' % script_fn, file=sys.stderr)
     print('%s --get-const <const>' % script_fn, file=sys.stderr)
     print('%s --get-sysnum <sysnum>' % script_fn, file=sys.stderr)
-    print('%s --get-strerror <errno>' % script_fn, file=sys.stderr)
+    print('%s --get-errno <errno>' % script_fn, file=sys.stderr)
     print('%s --file-patch <exe_fp> <file_offset> <data> (in hex). (Warning: tested only on x86/x86_64)' % script_fn, file=sys.stderr)
     print('%s --vm-patch <exe_fp> <vm_address> <data> (in hex). (Warning: tested only on x86/x86_64)' % script_fn, file=sys.stderr)
     print('%s --fork-nopper <exe_fp> (this nops out the calls to fork(). Warning: tested only on x86/x86_64)' % script_fn, file=sys.stderr)
